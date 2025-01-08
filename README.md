@@ -1,1 +1,38 @@
-# Password-Generator
+## Description
+
+This project is a simple password generator that creates a random password based on a specified length and character set. It is implemented using JavaScript and provides a user-friendly interface to generate passwords.
+
+## Features
+
+- Generates a random password with a default length of 12 characters.
+- Includes a mix of lowercase, uppercase, numeric, and special characters.
+- User can generate a new password by clicking a button.
+
+## Usage
+
+1. Open the `index.html` file in a web browser.
+2. Click the "Generate Password" button.
+3. The generated password will be displayed in the input field.
+
+## Code Overview
+
+The main functionality is implemented in the `script.js` file. The key functions are:
+
+- `generatePassword()`: Generates a random password.
+- `writePassword()`: Writes the generated password to the input field.
+- Event listener for the "Generate Password" button.
+
+## File Structure
+
+```
+/03-JavaScript/02-Challenge/Develop/
+│
+├── index.html
+├── script.js
+└── README.md
+```
+
+## License
+
+This project is licensed under the MIT License.
+```
